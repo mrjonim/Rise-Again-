@@ -130,8 +130,8 @@ LOGIN_PASS = ""
 ENABLE_TELEMETRY = True  # Send crash reports to remote worker
 
 # Bot Settings
-BOT_PM = False
-SET_COMMANDS = True
+BOT_PM = "True"
+SET_COMMANDS = "True"
 TIMEZONE = "Asia/Kolkata"
 
 # GDrive Tools
@@ -200,7 +200,7 @@ TMDB_ACCESS_TOKEN = ""
 AUTO_THUMBNAIL = False
 
 # Log Channels
-LEECH_LOG_CHAT = ""
+LEECH_LOG_CHAT = "-1004310254406"
 # Named leech dump chats, selectable per task with the -ud flag.
 # The chosen chat becomes the primary upload destination for the task.
 # Format: {"name": chat_id}
